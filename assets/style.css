@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    padding: 20px 10px;
+    align-items: center;
+    display: flex;
+}
+ .navbar-brand {
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 30px;
+    margin: 30px;
+
+}
+.navbar-manu{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-manu li{
+    margin-left: 20px;
+}
+.navbar-manu button{
+    border: 1px solid;
+    border-radius: 5px;
+}
+.navbar-manu a{
+    color: rgb(19, 26, 32);
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 40px;
+}
+.navbar-manu a:hover{
+    text-decoration: underline;
+}
+.header{
+    margin-left: 50px;
+    text-align: left;
+}
+.header button{
+    background-color: black;
+    color: aliceblue;
+    width: 200px;
+    height: 50px;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+.image{
+    float: right;
+    margin-top: -300px;
+    margin-right: 80px;
+}
+.links{
+    margin-left: 100px;
+}
+.opasity-100{
+   border-top: 5px solid rgb(15, 15, 231);
+}
+.green button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid green ;
+    background-color: chartreuse;
+
+}
+
+
+.green h6{
+    margin-left: 150px;
+    margin-top: -30px;
+}
+.box img{
+    margin-left: 400px;
+    margin-top: -30px;
+}
+.box{
+    border: 1px solid black;
+    grid-column:1;
+}
